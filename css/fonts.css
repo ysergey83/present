@@ -1,0 +1,37 @@
+@font-face {
+	font-family: 'Myriad  Pro';
+	src: url('../fonts/MyriadPro-Regular.otf');
+}
+
+@font-face {
+	font-family: 'Marion';
+	src: local('Marion'),
+  url('../fonts/marion.woff2') format('woff2'),
+	url('../fonts/marion.woff') format('woff'),
+  url('../fonts/marion.ttf') format('truetype'),
+  url('../fonts/marion.eot') format('eot');
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Roboto'),
+	local('Roboto-Regular'),
+	url('../fonts/roboto.woff2') format('woff2'),
+  url('../fonts/roboto-regular-webfont.woff') format('woff'),
+  url('../fonts/Roboto-Regular.ttf') format('truetype'),
+  url('../fonts/roboto-regular-webfont.eot') format('eot');
+}
+
+@font-face {
+  font-family: 'Roboto Condensed';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Roboto Condensed'),
+	local('RobotoCondensed-Regular'),
+	url('../fonts/roboto_condensed.woff2') format('woff2'),
+  url('../fonts/robotocondensed-regular-webfont.woff') format('woff'),
+  url('../fonts/RobotoCondensed-Regular.ttf') format('truetype'),
+  url('../fonts/robotocondensed-regular-webfont.eot') format('eot');
+}
