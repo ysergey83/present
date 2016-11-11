@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+	<title>Mushlya</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/fonts.css">
+	<link rel="stylesheet" href="css/style.css">
+    <script
+  src="https://code.jquery.com/jquery-1.12.4.min.js"
+  integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="
+  crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <div class="content">
+            <div class="header flex">
+                <div class="logo"></div>
+                <ul class="menu menu__header">
+                    <li class="menu__item"><a class="menu__link" href="">Головна</a></li>
+                    <li class="menu__item"><a class="menu__link" href="about.html">Про нас</a></li>
+                    <li class="menu__item"><a class="menu__link" href="">Пам'ятки</a></li>
+                    <li class="menu__item"><a class="menu__link" href="">Міста</a></li>
+                    <li class="menu__item"><a class="menu__link" href="">Галерея</a></li>
+                    <li class="menu__item"><a class="menu__link" href="">Контакти</a></li>
+                </ul>
+                <button class="button-help">Допомогти проекту</button>
+                <h1 class="name">Динамічна колекція цікавих міських просторів</h1>
+            </div>
+        </div>
+    </header>
+    <main>
+<section class="wrapper content-top">
+  <header class="content-header">
+    <h1 class="content-header__h1">Костел святого Олександра</h1>
+    <h3 class="content-header__h3">Адреса: вулиця Трьохсвятительська, Київ, 01-001</h3>
+  </header>
+
+<div class="highest-photo">
+    <img src="img/presentchirchAlex.png">
+  </div>
+
+<div class="map-and-crumbs">
+<div class="map">
+ <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d5080.654460961871!2d30.523543949459835!3d50.453630888283655!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb61d5268c1801867!2z0JrQvtGB0YLQtdC7INGB0LLRj9GC0L7Qs9C-INCe0LvQtdC60YHQsNC90LTRgNCw!5e0!3m2!1sru!2sua!4v1478275462214" width="283" height="176" frameborder="0" style="border:0" allowfullscreen></iframe>
+ </div>
+
+<nav class="breadcrumb">
+ <ul class="breadcrumb">
+    <li><a class="breadcrumb_link" href="#">МІСТА / Київ</a></li>
+    <li><a class="breadcrumb_link" href="#">ПАМЯТКИ / Культові споруди </a></li>
+    <li><a class="breadcrumb_link" href="#">МИНУЛЕ / Історичний спадок </a></li>
+    <li><a class="breadcrumb_link" href="#">МАЙБУТНЬЄ / Скандальна реставрація </a></li>
+</ul>
+
+<form action="" method="post" class="search">
+  <input type="search" name="" placeholder="СХОЖІ МІСЦЯ НА КАРТІ" class="input" />
+  <input type="submit" name="" value="" class="submit" />
+</form>
+</nav>
+</div>
+</section>
+ <section class="search invisible">
+            <div class="wrapper search__wrapper">
+               <div class="search__type hidden ">
+                   <h3 class="search__title">МІСТА</h3>
+                   <label for="checkbox-1">
+                        <input id="checkbox-1" type="checkbox">
+                        <span class="label-text">Київ</span>
+                    </label>
+                    <label for="checkbox-2">
+                        <input id="checkbox-2" type="checkbox">
+                        <span class="label-text">Вінниця</span>
+                    </label>
+                    <label for="checkbox-3">
+                        <input id="checkbox-3" type="checkbox">
+                        <span class="label-text">Ужгород</span>
+                    </label>
+                   <label for="checkbox-4">
+                        <input id="checkbox-4" type="checkbox">
+                        <span class="label-text">Одеса</span>
+                    </label>
+                    <label for="checkbox-5">
+                        <input id="checkbox-5" type="checkbox">
+                        <span class="label-text">Львів</span>
+                    </label>
+                   <input type="text" class="search_form search_form__local search_form__local--right" placeholder="Аа">
+
+               </div>
+               <div class="search__type hidden">
+
+                   <h3 class="search__title">КАТЕГОРІЇ</h3>
+                   <label for="checkbox-6">
+                        <input id="checkbox-6" type="checkbox">
+                        <span class="label-text">Арт</span>
+                    </label>
+                    <label for="checkbox-7">
+                        <input id="checkbox-7" type="checkbox">
+                        <span class="label-text">Музика</span>
+                    </label>
+                    <label for="checkbox-8">
+                        <input id="checkbox-8" type="checkbox">
+                        <span class="label-text">Скульптура</span>
+                    </label>
+                    <label for="checkbox-9">
+                        <input id="checkbox-9" type="checkbox">
+                        <span class="label-text">Відпочинок</span>
+                    </label>
+                    <label for="checkbox-10">
+                        <input id="checkbox-10" type="checkbox">
+                        <span class="label-text">Унікальні місця</span>
+                    </label>
+               </div>
+             
+               
+               <div class="search__type hidden">
+                   <h3 class="search__title">МАШИНА ЧАСУ</h3>
+                    <label for="checkbox-11">
+                        <input id="checkbox-11" type="checkbox">
+                        <span class="label-text">Нові цікаві споруди</span>
+                    </label>
+                    <label for="checkbox-12">
+                        <input id="checkbox-12" type="checkbox">
+                        <span class="label-text">Реставровані пам’ятки</span>
+                    </label>
+                    <label for="checkbox-13">
+                        <input id="checkbox-13" type="checkbox">
+                        <span class="label-text">Будинки-привиди</span>
+                    </label>
+                    <label for="checkbox-14">
+                        <input id="checkbox-14" type="checkbox">
+                        <span class="label-text">Старі церкви</span>
+                    </label>
+                    <label for="checkbox-15">
+                        <input id="checkbox-15" type="checkbox">
+                        <span class="label-text">У стані руйнації</span>
+                    </label>
+                    <label for="checkbox-16">
+                        <input id="checkbox-16" type="checkbox">
+                        <span class="label-text">Проекти майбутнього</span>
+                    </label>
+               </div>
+               <div class="search__type hidden ">
+                   <div class="search__geolocation">
+                        <input type="checkbox" value="None" id="slideOne" name="check" checked />
+                        <label for="slideOne"></label>
+                        <span class="search__geoswitch_on">Геолокація: On</span>
+                        <span class="search__geoswitch_off">Геолокація: Off</span>
+
+                   </div>
+                   <div class="search-radius">
+                       <h3 class="search__title">РАДІУС ПОШУКУ</h3>
+                       <input type="text" class="search_form search_form__local search_form__local--left" placeholder="1 км">
+                   </div>
+               </div>
+            </div>
+        </section>
+
+ <section class="time-buttons">
+          <div id="button-container">
+                <button class="button__left" type="button"><p class="button__p">МИНУЛЕ</p></button>
+                <button class="button__center" type="button"><p class="button__p">ТЕПЕРІШНЄ</p></button>
+                <button class="button__right" type="button"><p class="button__p">МАЙБУТНЄ</p></button>
+          </div>
+        </section>
+
+<content class="content">
+<div class="wrapper content__text">
+  <h2 class="wrapper content_h2">Перлина класицистичної архітектури під загрозою</h2>
+  <p class="content_p">Костел святого Олексндра — католицький собор в Києві, Україна. Належить до Києво-Житомирської дієцезії Римо-Католицької Церкви. Розташований на вулиці Костьольній Шевченкіського району столиці. Збудований 1842 року. Один
+із двох київських римо-католицьких храмів XIX століття. Виконаний в стилі класицизму, хрестовидний (квадратна) в плані,
+з високою головною банею та двома баштами, портиком при вході. Найстаріша з католицьких святинь Києва, що зберег-
+лися. 2001 року відвіданий папою Іваном Павлом ІІ. Храмове свято — 3 травня. Офіційна назва — Прокафедральний со-
+бор святого Олександра. Також називається на польський манер Олександрівським костелом. Таким чином на 1832 рік
+Київ залишився без домініканців. Того ж року помер перший настоятель храму, о. Вікентій Головня.<br>
+<br>
+(Матеріал із Вікіпедії, вільної енциклопедії).<br>
+<br>
+1991 р. будівлю було передано римо-католицькій церкві. Реконструкція храму тривала 4 роки. 7 жовтня 1995 р. єпископ-
+помічник Житомирської дієцезії Станіслав Широкорадюк поновно освятив костьол Св. Олександра, який було відрестав-
+ровано зусиллями віруючих на чолі з тодішнім настоятелм парафії, отцем Яном Крапаном, і за підтримки католиків України
+та багатьох країн світу.<br>
+<br>
+Протягом 2011-2016 рр.  на соборі Святого Олександра ведуться ремонтно-реноваційні роботи, які повністю нищать
+його класицистичний вигляд.<br>
+<br>
+Ініціативна група парафіян безуспішно бореться із цим ґвалтом протягом двох років. Результату нема. Все впирається
+у Міністерство культури, яке має подати відповідну заявку у прокуратуру.</p>
+</div>
+</content>
+
+<section class="content_slider">
+   <figure class="content_slider__photo">
+    <p><img src="img/Alexchirch.png" alt="" /></p>
+    <figcaption>Відновлений у первісному вигляді</figcaption>
+   </figure>
+
+    <figure class="content_slider__photo">
+    <p><img src="img/chirchalex.png" alt="" /></p>
+    <figcaption>Головна баня</figcaption>
+   </figure>
+
+    <figure class="content_slider__photo">
+    <p><img src="img/chirchroof.png" alt="" /></p>
+    <figcaption>Головна баня</figcaption>
+   </figure>
+</section>
+
+
+    </main>
+    <footer class="footer flex">
+        <div class="grey">
+            <div class="wrapper">
+
+            <ul class="menu footer__menu">
+                <li><p class="footer__menu_heading">Категорії</p></li>
+                <li><a class="footer__menu_link" href="">Архітектурні комплекси</a></li>
+                <li><a class="footer__menu_link" href="">Парки, сади, алеї</a></li>
+                <li><a class="footer__menu_link" href="">Музеї, експозиції</a></li>
+                <li><a class="footer__menu_link" href="">Музичні заклади</a></li>
+                <li><a class="footer__menu_link" href="">Пам'ятники, скульптури</a></li>
+                <li><a class="footer__menu_link" href="">Унікальні місця</a></li>
+            </ul>
+
+            <ul class="menu footer__menu">
+                <li><p class="footer__menu_heading">Вибране</p></li>
+                <li><a class="footer__menu_link" href="">Будинок Сікорського, Київ</a></li>
+                <li><a class="footer__menu_link" href="alexander_present.html">Костел Св.Олександра, Київ</a></li>
+                <li><a class="footer__menu_link" href="">Пішохідний міст, Ужгород</a></li>
+                <li><a class="footer__menu_link" href="">Сквер Е.Бокшая, Вінниця</a></li>
+                <li><a class="footer__menu_link" href="">Будиночок Миколи Гоголя, Одеса</a></li>
+                <li><a class="footer__menu_link" href="">Площа Ринок, Львів</a></li>
+            </ul>
+
+            <ul class="menu footer__menu">
+                <li><p class="footer__menu_heading">Популярні опції</p></li>
+                <li><a class="footer__menu_link" href="">Шукати за геолокацією</a></li>
+                <li><a class="footer__menu_link" href="">Шукати за адресою</a></li>
+                <li><a class="footer__menu_link" href="">Останні колекції</a></li>
+                <li><a class="footer__menu_link" href="">Створити власну колекцію</a></li>
+                <li><a class="footer__menu_link" href="">Поставити теплу точку на карті</a></li>
+                <li><a class="footer__menu_link" href="">Вивчити місто або категорію</a></li>
+            </ul>
+
+            <ul class="menu footer__menu">
+                <li><p class="footer__menu_heading">Міста</p></li>
+                <li><a class="footer__menu_link" href="">Київ</a></li>
+                <li><a class="footer__menu_link" href="">Вінниця</a></li>
+                <li><a class="footer__menu_link" href="">Ужгород</a></li>
+                <li><a class="footer__menu_link" href="">Одеса</a></li>
+                <li><a class="footer__menu_link" href="">Львів</a></li>
+                <li><a class="footer__menu_link" href="">Харків</a></li>
+            </ul>
+            <ul class="social">
+                <li><a class="social__link social__link_twitter" href=""></a></li>
+                <li><a class="social__link social__link_facebook" href=""></a></li>
+                <li><a class="social__link social__link_instagram" href=""></a></li>
+            </ul>
+            </div>
+        </div>
+        <div class="navy">
+            <p>&copy; 2016 Mushlya</p>
+        </div>
+    </footer>
+    
+</body>
+</html>
