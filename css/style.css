@@ -208,11 +208,10 @@ a {
 }
 
 .highest-photo {
-  background-color: #fff;
-  padding: 15px;
-  position: absolute;
-  right: 135px;
-  top: 290px;
+    background-color: #fff;
+    padding: 15px;
+	margin: 23px;
+    float: right;
 }
 
 .map-and-crumbs {
@@ -229,14 +228,14 @@ a {
 
 .breadcrumb {
   width: 316px;
-  list-style: none; 
-  overflow: hidden; 
+  list-style: none;
+  overflow: hidden;
   font: 20px Helvetica, Arial, Sans-Serif;
   margin-top: 15px;
   margin-left: 30px;
 }
 
-.breadcrumb a { 
+.breadcrumb a {
   color: #000;
   text-decoration: none;
 }
@@ -597,7 +596,7 @@ input[type=checkbox] ~ .search__geoswitch_on {
   padding: 60px 55px 0px;
   color: #a67322;
   font-size: 30px;
-  
+
 }
 
 .content_p {
